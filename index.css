@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-container {
+  min-height: 100vh;
+  background-image: url("https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg");
+}
+
+.image-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.main-heading {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.card-container {
+  background-color: #f7f7f5;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.first {
+  font-size: 16px;
+  color: #88888a;
+  text-align: center;
+}
+
+.second {
+  font-size: 30px;
+  color: #b01c2d;
+  text-align: center;
+  font-weight: bold;
+}
+
+.third {
+  font-size: 18px;
+  color: #686869;
+  text-align: center;
+}
+
+.five {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.address {
+  color: #414242;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.under {
+  text-decoration: line-through;
+}
+
+.free {
+  color: red;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.button-red {
+  background-color: #c40e32;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 35px;
+  border-width: 0px;
+  text-align: center;
+  padding: 20px;
+}
+
+.button-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.red-card {
+  background-color: #c90a30;
+  margin-top: 30px;
+}
+
+.red-image {
+  max-width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+
+.learn-card {
+  background-color: #dae0e3;
+  padding: 30px;
+}
+
+.learn {
+  color: #444445;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.passage {
+  color: #444445;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+.down {
+  color: #444445;
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center;
+}
+
+.down2 {
+  color: #444445;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.down3 {
+  color: #444445;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.value {
+  text-decoration: line-through;
+  color: white;
+  font-size: 16px;
+}
+
+.free1 {
+  color: white;
+  font-size: 16px;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.black-card {
+  background-color: black;
+}
+
+.meet {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-heading {
+  color: white;
+}
+
+.describ {
+  color: white;
+}
+
+.design {
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.transparent {
+  background-color: transparent;
+  color: white;
+}
+
+.last-heading {
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+}
+
+.last1 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.last2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 20px;
+}
+
+.copy {
+  color: white;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hyper {
+  font-size: 13px;
+  color: white;
+}
+
+.hyper a {
+  color: white;
+  text-decoration: none;
+}
+
+.hyper a:hover {
+  color: #ffd700;
+}
+
+@media screen and (min-width: 768px) {
+  .adjust {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .img-container {
+    text-align: none;
+  }
+
+  .red-card {
+    text-align: center;
+  }
+
+  .photo-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: Center;
+    gap: 10px;
+
+    /* Center items horizontally */
+  }
+
+  .rk {
+    margin-left: 120px;
+  }
+
+  /* Adjust margin for items in a row and provide some gap */
+  .transparent {
+    padding-top: 13px;
+  }
+
+  .describ {
+    color: white;
+    margin-right: 10px;
+  }
+
+  .learn-card {
+    text-align: center;
+  }
+
+  .down {
+    padding-top: 20px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .hyper {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* Center the form within the modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 20%;
+  width: 60%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.dialog-box {
+  background-color: #f7f7f5;
+}
+
+.dialog-head {
+  text-align: center;
+  font-size: 30px;
+  color: #48494f;
+}
+
+.color {
+  color: red;
+}
+
+.custom-button {
+  margin-top: 15px;
+  border-width: 0px;
+  padding: 10px;
+  background-color: #e05624;
+  color: white;
+  font-weight: bold;
+}
+
+.button-dialog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
